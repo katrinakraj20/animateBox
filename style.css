@@ -1,0 +1,38 @@
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color:  red;
+  animation-name: animateBox;
+  animation-duration: 4s;
+  animation-timing-function: forward;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animateBox {
+  0%   {
+    background-color: Red;
+    left:0px;
+    top:0px;
+  }
+  25%  {
+    background-color: Pink;
+    left:400px;
+    top:0px;
+  }
+  50%  {
+    background-color: Green;
+    left:400px;
+    top:400px;
+  }
+  75%  {
+    background-color: Black;
+    left:0px;
+    top:400px;
+  }
+  100% {
+    background-color: Blue;
+    left:0px;
+    top:0px;
+  }
+}
